@@ -9,6 +9,10 @@ Includes
 
 ## Auto-Install
 
+for UNIX platforms:
+
+`wget -O - https://raw.github.com/ChinHui-Chen/ganglia_metric_modules/master/auto-install.sh | sh`
+
 
 ## Install
 
