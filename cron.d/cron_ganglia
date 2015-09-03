@@ -1,0 +1,9 @@
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+# m     h dom mon dow   user     command
+*       *   *   *   *   root     /root/ganglia_nfs_stats.pl -c
+*       *   *   *   *   root     /root/ganglia_disk_stats.pl sda
+*       *   *   *   *   root     /root/ganglia_disk_stats.pl sdb
+*       *   *   *   *   root     /root/ganglia_mysql_stats.pl
+*       *   *   *   *   root     /root/ganglia_apache_workers.sh
