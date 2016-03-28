@@ -16,6 +16,7 @@ for UNIX platforms:
 
 ## Install
 
+`sudo chmod +x modules/*`
 `sudo cp modules/* /root`  
 `sudo cp cron.d/cron_ganglia /etc/cron.d/`  
 `sudo service cron restart`  
